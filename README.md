@@ -4,7 +4,7 @@ Welcome to my Dotfile Repo, no clue why you're here, but enjoy!
 
 # Sreenshots
 
-![](assets/20240707_194056_Desktop.png)
+![](.dotfiles/images/Desktop.png)
 
 # What I use
 
