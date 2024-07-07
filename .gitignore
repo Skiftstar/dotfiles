@@ -2,6 +2,9 @@
 !.gitignore
 !.config/
 
+!.setup
+!.setup/**
+
 !.config/hypr
 !.config/hypr/**
 
