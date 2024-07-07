@@ -46,10 +46,6 @@ window#waybar.hidden {
   background-color: #cdd6f4;
 }
 
-#workspaces button.urgent {
-  background-color: unset;
-}
-
 #memory,
 #custom-power,
 #battery,
