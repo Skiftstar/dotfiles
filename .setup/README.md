@@ -36,3 +36,4 @@ adobe-source-han-serif-jp-fonts
 python-pip
 nvm
 git-credential-manager
+modrinth-app
