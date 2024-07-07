@@ -2,6 +2,10 @@
 !.gitignore
 !.config/
 
+!.README.md
+!.dotfiles
+!.dotfiles/**
+
 !.setup
 !.setup/**
 
