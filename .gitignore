@@ -9,6 +9,9 @@
 !.setup
 !.setup/**
 
+!.config/waybar
+!.config/waybar/**
+
 !.config/hypr
 !.config/hypr/**
 
