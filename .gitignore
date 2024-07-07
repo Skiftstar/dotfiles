@@ -25,3 +25,8 @@
 !.config/vesktop/settings.json
 !.config/vesktop/settings
 !.config/vesktop/settings/**
+
+!.vscode-oss
+!.vscode-oss/extensions
+!.vscode-oss/extensions/extensions.json
+!.vscode-oss/argv.json
