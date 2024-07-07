@@ -2,7 +2,7 @@
 !.gitignore
 !.config/
 
-!.README.md
+!README.md
 !.dotfiles
 !.dotfiles/**
 
