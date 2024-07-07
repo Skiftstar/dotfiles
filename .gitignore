@@ -30,3 +30,6 @@
 !.vscode-oss/extensions
 !.vscode-oss/extensions/extensions.json
 !.vscode-oss/argv.json
+
+!.firefox-theming
+!.firefox-theming/**
