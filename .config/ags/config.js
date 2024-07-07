@@ -1,6 +1,6 @@
-import controlCenter from "./ownStuff/ControlCenter.js";
+import controlCenter from "./Widgets/ControlCenter.js"
 
 App.config({
   style: "./style.css",
   windows: [controlCenter],
-});
+})

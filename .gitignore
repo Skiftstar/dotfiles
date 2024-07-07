@@ -5,8 +5,9 @@
 !.config/hypr
 !.config/hypr/**
 
-!.config/ags/ownStuff
-!.config/ags/ownStuff/**
+!.config/ags
+!.config/ags/Widgets
+!.config/ags/Widgets/**
 !.config/ags/config.js
 !.config/ags/style.css
 !.config/ags/theme.css
