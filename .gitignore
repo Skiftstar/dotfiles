@@ -6,6 +6,10 @@
 !.dotfiles
 !.dotfiles/**
 
+!Pictures
+!Pictures/Wallpapers
+!Pictures/Wallpapers/**
+
 !.setup
 !.setup/**
 

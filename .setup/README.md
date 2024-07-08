@@ -38,3 +38,8 @@ nvm
 git-credential-manager
 modrinth-app
 teams-for-linux
+an-anime-game-launcher-bin
+mupdf
+gimp
+upscayl-bin
+darkman
