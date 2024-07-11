@@ -41,6 +41,10 @@
 !.config/vesktop/settings
 !.config/vesktop/settings/**
 
+!.config/nvim
+!.config/nvim/init.vim
+!.config/nvim/coc-settings.json
+
 !.vscode-oss
 !.vscode-oss/extensions
 !.vscode-oss/extensions/extensions.json

@@ -19,12 +19,23 @@ export CSCOPE_EDITOR="nvim"
 
 eval $(dircolors ~/.dir_colors)
 
-alias vim=nvim
+# Open nvim in the directory that you specify
+vim() {
+  if [ -d "$1" ]; then
+    cd "$1" && nvim .
+  elif [ -f "$1" ]; then
+    cd "$(dirname "$1")" && nvim "$(basename "$1")"
+  else
+    echo "Error: $1 is not a valid directory or file"
+  fi
+}
+
 alias ls='ls --color=auto'
 alias ll='ls -alh --color=auto'
 alias grep='grep --color=auto'
 alias neofetch='fastfetch'
 alias fetch='fastfetch'
+alias shutdown='shutdown -h now'
 
 ###------------------- PROMPT -----------------------###
 

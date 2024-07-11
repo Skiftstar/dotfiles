@@ -33,6 +33,8 @@ aylurs-gtk-shell
 esbuild
 adobe-source-han-sans-jp-fonts
 adobe-source-han-serif-jp-fonts
+adobe-source-han-serif-otc-fonts
+adobe-source-han-sans-otc-fonts
 python-pip
 nvm
 git-credential-manager
@@ -43,3 +45,5 @@ mupdf
 gimp
 upscayl-bin
 darkman
+ctags
+python-ipykernel
