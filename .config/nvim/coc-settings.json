@@ -1,0 +1,19 @@
+{
+  "diagnostic.enable": true,
+  "diagnostic.displayByAle": false,
+  "diagnostic.errorSign": "✗",
+  "diagnostic.warningSign": "⚠",
+  "diagnostic.infoSign": "ℹ",
+  "diagnostic.hintSign": "➤",
+  "diagnostic.virtualText": true,
+  "diagnostic.virtualTextCurrentLineOnly": false,
+  "diagnostic.virtualTextPrefix": "",
+  "diagnostic.checkCurrentLine": true,
+  "diagnostic.refreshAfterSave": true,
+  "diagnostic.showUnused": true,
+  "diagnostic.unusedSign": "•",
+  "diagnostic.warningHighlight": "CocHighlightWarning",
+  "diagnostic.errorHighlight": "CocHighlightError",
+  "diagnostic.infoHighlight": "CocHighlightInfo",
+  "diagnostic.hintHighlight": "CocHighlightHint"
+}
