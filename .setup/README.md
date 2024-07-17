@@ -7,6 +7,7 @@ lib32-vulkan-radeon
 nano
 hyprland-bin
 kitty
+gnome-themes-extra
 waybar
 mako
 grim
@@ -22,9 +23,10 @@ waterfox
 vesktop
 gamescope
 steam
+wine
 hyprpaper
 obs-studio
-nemo
+thunar
 swww
 spotify
 spicetify-cli
@@ -47,3 +49,5 @@ upscayl-bin
 darkman
 ctags
 python-ipykernel
+insomnia
+youtube-music-bin

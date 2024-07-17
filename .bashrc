@@ -36,6 +36,7 @@ alias grep='grep --color=auto'
 alias neofetch='fastfetch'
 alias fetch='fastfetch'
 alias shutdown='shutdown -h now'
+alias proc='ps auxc'
 
 ###------------------- PROMPT -----------------------###
 
