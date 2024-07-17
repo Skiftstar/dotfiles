@@ -25,6 +25,8 @@
 !.config/ags/config.js
 !.config/ags/style.css
 !.config/ags/theme.css
+!.config/ags/assets/
+!.config/ags/assets/**
 
 !.config/spicetify/
 !.config/spicetify/CustomApps
