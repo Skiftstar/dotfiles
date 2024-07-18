@@ -2,7 +2,7 @@
 
 Welcome to my Dotfile Repo, no clue why you're here, but enjoy!
 
-# Sreenshots
+# Screenshots
 
 ![](.dotfiles/images/Desktop.png)
 
