@@ -2,8 +2,7 @@
 @import url("./Widgets/MediaControl/style/media.css");
 @import url("./Widgets/AudioStreamControl/style/audio.css");
 @import url("./Widgets/Sidebar/style/sidebar.css");
-@import url("./Widgets/AudioDeviceControl/style/audioDevice.css");
-
+@import url("./Components/style/dropdown.css");
 .control-center {
   min-width: 200px;
   min-height: 250px;
