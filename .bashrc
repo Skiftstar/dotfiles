@@ -30,6 +30,9 @@ vim() {
   fi
 }
 
+# Wallpaper test
+alias wp-test='function _test() { magick "$1" -brightness-contrast -40x0 ~/.config/ags/wallpaper.png && swww img ~/.config/ags/wallpaper.png && wallust run "$1" -C '~/.config/ags/style/wallust/wallust_dark.toml' -k -s && wallust run "$1" -k -s -C '~/.config/ags/style/wallust/wallust_light.toml' ; }; _test'
+
 alias ls='ls --color=auto'
 alias ll='ls -alh --color=auto'
 alias grep='grep --color=auto'
@@ -135,3 +138,8 @@ source <(ng completion script)
 export PATH="/usr/bin/flutter/bin:$PATH"
 source /usr/share/nvm/init-nvm.sh
 alias dotfiles=/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH=$BUN_INSTALL/bin:$PATH
+export PATH=/home/kyu/.bun/bin:/usr/bin/flutter/bin:/home/kyu/.nvm/versions/node/v22.4.0/bin:/sbin:/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/var/lib/flatpak/exports/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/kyu/.npm-packages/bin:/opt/purevpn-cli/bin
