@@ -6,6 +6,7 @@
 :set tabstop=4
 :set softtabstop=4
 :set wildmenu
+:set timeoutlen=1000
 
 call plug#begin('~/.config/nvim/plugged')
 
@@ -31,8 +32,11 @@ Plug 'https://github.com/BurntSushi/ripgrep'
 Plug 'romgrk/barbar.nvim'
 Plug 'https://github.com/stevearc/conform.nvim'
 Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
+Plug 'numToStr/Comment.nvim'
 
 call plug#end()
+
+lua require('Comment').setup()
 
 let NERDTreeShowHidden=1
 
@@ -56,6 +60,13 @@ nnoremap <C-c> "+y
 vnoremap <C-c> "+y
 nnoremap <C-p> "+p
 vnoremap <C-p> "+p
+
+let mapleader = " "
+" Normal mode - Space + / to comment the current line
+nnoremap <leader>/ gcc
+
+" Visual mode - Space + / to comment the selected lines
+vnoremap <leader>/ gc
 
 :tnoremap <Esc> <C-\><C-n>
 
