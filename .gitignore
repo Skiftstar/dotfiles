@@ -16,6 +16,12 @@
 !.config/waybar
 !.config/waybar/**
 
+!.config/rofi
+!.config/rofi/**
+
+!.config/kitty
+!.config/kitty/**
+
 !.config/hypr
 !.config/hypr/**
 
