@@ -16,6 +16,7 @@ export FZF_DEFAULT_COMMAND='ag --hidden --ignore .git -g ""'
 export CDPATH=".:$HOME:$HOME/.config/:$HOME/.local/:$HOME/.local/share/:$HOME/.local/programs"
 export LIBVIRT_DEFAULT_URI='qemu:///system'
 export CSCOPE_EDITOR="nvim"
+export PATH="/home/kyu/.cargo/bin:$PATH"
 
 eval $(dircolors ~/.dir_colors)
 
@@ -142,4 +143,4 @@ alias dotfiles=/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH=$BUN_INSTALL/bin:$PATH
-export PATH=/home/kyu/.bun/bin:/usr/bin/flutter/bin:/home/kyu/.nvm/versions/node/v22.4.0/bin:/sbin:/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/var/lib/flatpak/exports/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/kyu/.npm-packages/bin:/opt/purevpn-cli/bin
+export PATH=/home/kyu/.cargo/bin:/home/kyu/.bun/bin:/usr/bin/flutter/bin:/home/kyu/.nvm/versions/node/v22.4.0/bin:/sbin:/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/var/lib/flatpak/exports/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/kyu/.npm-packages/bin:/opt/purevpn-cli/bin

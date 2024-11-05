@@ -12,6 +12,7 @@ call plug#begin('~/.config/nvim/plugged')
 
 Plug 'https://github.com/vim-airline/vim-airline'
 Plug 'https://github.com/preservim/nerdtree'
+Plug 'brenoprata10/nvim-highlight-colors'
 Plug 'https://github.com/ap/vim-css-color'
 Plug 'https://github.com/rafi/awesome-vim-colorschemes'
 Plug 'https://github.com/ryanoasis/vim-devicons'
@@ -139,6 +140,8 @@ require("conform").setup({
     javascript = { "prettierd", "prettier", stop_after_first = true },
   },
 })
+
+require('nvim-highlight-colors').setup({})
 
 require("catppuccin").setup({
     flavour = "auto", -- latte, frappe, macchiato, mocha

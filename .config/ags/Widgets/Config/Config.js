@@ -26,9 +26,6 @@ const renderConfigFields = (groupedConfig, depth = 0) => {
       const optionFields = options
         ? options.map(({ label, option }) => {
             let valueWidget;
-
-            console.log(option.getType());
-
             switch (option.getType()) {
               case ConfigType.BOOL:
                 valueWidget = Widget.Switch({
