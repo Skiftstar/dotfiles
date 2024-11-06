@@ -42,11 +42,11 @@
 !.config/spicetify/Themes
 !.config/spicetify/Themes/**
 
-!.config/vencord
-!.config/vencord/themes
-!.config/vencord/themes/**
-!.config/vencord/settings
-!.config/vencord/settings/**
+!.config/Vencord
+!.config/Vencord/themes
+!.config/Vencord/themes/**
+!.config/Vencord/settings
+!.config/Vencord/settings/**
 
 !.config/vesktop
 !.config/vesktop/themes
