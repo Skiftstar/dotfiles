@@ -6,14 +6,14 @@ Welcome to my Dotfile Repo, no clue why you're here, but enjoy!
 
 ![](.dotfiles/images/Desktop.png)
 
+![](.dotfiles/images/20241106_141500_image.png)
+
+![](.dotfiles/images/20241106_141525_image.png)
+
 # What I use
 
-I use Arch, btw together with Hyprland
+I'm running Hyprland on Arch
 
-The Terminal is Kitty
+My Widgets are my own AGS Widgets [Frostlight](https://github.com/Skiftstar/Frostlight)
 
-For my Widgets I use AGS and the Status bar at the top is Waybar
-
-# Setup
-
-The essential packages I use are listed in .setup
+Installtion Guide for my dotfiles can be found [here](https://skiftstar.github.io/dotfiles-docs/)
