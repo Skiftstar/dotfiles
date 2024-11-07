@@ -6,6 +6,7 @@ import topbar from "./src/Windows/Topbar/Topbar.js";
 import {config} from "./src/Util/ConfigUtil.js";
 import Gdk from "gi://Gdk";
 import {corner} from "./src/Windows/Topbar/Misc/CornerRounding.js";
+import applauncher from "./src/Windows/AppLauncher/AppLauncher.js";
 
 App.addIcons(`${App.configDir}/assets/icons`);
 
@@ -17,6 +18,7 @@ const windows = [
 	audioWindow,
 	customizeWindow,
 	configWindow,
+	//applauncher(0)
 ];
 
 if (config.general.topbar.enabled.value) {
