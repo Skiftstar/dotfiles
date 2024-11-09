@@ -7,9 +7,6 @@ esac
 
 #####---------- EXPORTS ----------###
 
-export BROWSER="firefox"
-export EDITOR="nvim"
-export VISUAL="nvim"
 export LESSHISTFILE=-
 export HISTFILE="$HOME/.bash_history"
 export FZF_DEFAULT_COMMAND='ag --hidden --ignore .git -g ""'
@@ -132,13 +129,6 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-
-# Load Angular CLI autocompletion.
-source <(ng completion script)
-# flutter
-export PATH="/usr/bin/flutter/bin:$PATH"
-source /usr/share/nvm/init-nvm.sh
-alias dotfiles=/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME
 
 # bun
 export BUN_INSTALL="$HOME/.bun"
