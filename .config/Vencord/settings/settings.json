@@ -137,10 +137,14 @@
             "enabled": false
         },
         "CustomIdle": {
-            "enabled": true
+            "enabled": true,
+            "idleTimeout": 10
         },
         "Dearrow": {
-            "enabled": true
+            "enabled": true,
+            "hideButton": false,
+            "replaceElements": 0,
+            "dearrowByDefault": true
         },
         "Decor": {
             "enabled": false
@@ -155,7 +159,8 @@
             "enabled": true
         },
         "Experiments": {
-            "enabled": true
+            "enabled": true,
+            "toolbarDevMenu": false
         },
         "F8Break": {
             "enabled": false
@@ -239,7 +244,8 @@
             "enabled": false
         },
         "MentionAvatars": {
-            "enabled": true
+            "enabled": true,
+            "showAtSymbol": true
         },
         "MessageClickActions": {
             "enabled": false
@@ -251,7 +257,17 @@
             "enabled": false
         },
         "MessageLogger": {
-            "enabled": true
+            "enabled": true,
+            "collapseDeleted": false,
+            "deleteStyle": "text",
+            "ignoreBots": false,
+            "ignoreSelf": false,
+            "ignoreUsers": "",
+            "ignoreChannels": "",
+            "ignoreGuilds": "",
+            "logEdits": true,
+            "logDeletes": true,
+            "inlineEdits": true
         },
         "MessageTags": {
             "enabled": false
@@ -359,7 +375,9 @@
             "enabled": false
         },
         "PinDMs": {
-            "enabled": true
+            "enabled": true,
+            "dmSectioncollapsed": false,
+            "pinOrder": 0
         },
         "PlainFolderIcon": {
             "enabled": false
@@ -401,7 +419,12 @@
             "enabled": false
         },
         "RoleColorEverywhere": {
-            "enabled": true
+            "enabled": true,
+            "chatMentions": true,
+            "memberList": true,
+            "voiceUsers": true,
+            "reactorsList": true,
+            "colorChatMessages": false
         },
         "SecretRingToneEnabler": {
             "enabled": false
@@ -563,6 +586,6 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1731003989422
+        "settingsSyncVersion": 1731450123918
     }
 }

@@ -1,7 +1,7 @@
 :set number
 :set mouse=a
 :set autoindent
-:set shiftwidth=4
+" :set shiftwidth=2
 :set smarttab
 :set tabstop=2
 :set softtabstop=2
@@ -307,12 +307,10 @@ require('lualine').setup {
 vim.api.nvim_create_autocmd("BufWritePre", {
   pattern = "*",
   callback = function()
-    local ok = pcall(vim.fn.CocAction, 'format')
-    if not ok then
-      -- Optionally, you could print a message or log, but it will just skip formatting by default
-      -- print("No format provider found, skipping format.")
-    end
-    vim.cmd("write")  -- Save the file after attempting to format
+    vim.fn.CocActionAsync('runCommand', 'prettier.forceFormatDocument', function()
+      -- Save the file without triggering any autocmds to avoid recursion or flicker
+      vim.cmd("noautocmd write")
+    end)
   end,
 })
 
