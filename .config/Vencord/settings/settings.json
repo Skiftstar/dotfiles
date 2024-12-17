@@ -144,7 +144,7 @@
             "enabled": true,
             "hideButton": false,
             "replaceElements": 0,
-            "dearrowByDefault": true
+            "dearrowByDefault": false
         },
         "Decor": {
             "enabled": false
@@ -288,7 +288,14 @@
             "enabled": false
         },
         "NewGuildSettings": {
-            "enabled": true
+            "enabled": true,
+            "guild": true,
+            "everyone": true,
+            "role": true,
+            "events": true,
+            "highlights": true,
+            "messages": 3,
+            "showAllChannels": true
         },
         "NoBlockedMessages": {
             "enabled": false
@@ -424,7 +431,8 @@
             "memberList": true,
             "voiceUsers": true,
             "reactorsList": true,
-            "colorChatMessages": false
+            "colorChatMessages": false,
+            "pollResults": true
         },
         "SecretRingToneEnabler": {
             "enabled": false
@@ -586,6 +594,6 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1731450123918
+        "settingsSyncVersion": 1734395322049
     }
 }
