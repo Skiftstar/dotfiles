@@ -144,7 +144,7 @@
             "enabled": true,
             "hideButton": false,
             "replaceElements": 0,
-            "dearrowByDefault": false
+            "dearrowByDefault": true
         },
         "Decor": {
             "enabled": false
@@ -208,9 +208,6 @@
             "enabled": false
         },
         "GreetStickerPicker": {
-            "enabled": false
-        },
-        "HideAttachments": {
             "enabled": false
         },
         "iLoveSpam": {
@@ -352,7 +349,10 @@
             "enabled": false
         },
         "OnePingPerDM": {
-            "enabled": false
+            "enabled": true,
+            "channelToAffect": "user_dm",
+            "allowMentions": true,
+            "allowEveryone": true
         },
         "oneko": {
             "enabled": false
@@ -373,7 +373,7 @@
             "enabled": false
         },
         "PermissionsViewer": {
-            "enabled": false
+            "enabled": true
         },
         "petpet": {
             "enabled": false
@@ -383,8 +383,32 @@
         },
         "PinDMs": {
             "enabled": true,
-            "dmSectioncollapsed": false,
-            "pinOrder": 0
+            "pinOrder": 0,
+            "dmSectionCollapsed": false,
+            "canCollapseDmSection": false,
+            "userBasedCategoryList": {
+                "230619260517482498": [
+                    {
+                        "id": "zghw41cjulg",
+                        "name": "Pins",
+                        "color": 3447003,
+                        "collapsed": false,
+                        "channels": [
+                            "1266880357177753651",
+                            "500345775663087626",
+                            "1180188057530544218",
+                            "710100844120506509",
+                            "504359331509174282",
+                            "326703396461477888",
+                            "905815538473775144",
+                            "1286466131464294471",
+                            "1305466046672801882",
+                            "1249867624456912977",
+                            "1312360926942597171"
+                        ]
+                    }
+                ]
+            }
         },
         "PlainFolderIcon": {
             "enabled": false
@@ -459,7 +483,10 @@
             "enabled": false
         },
         "ShowHiddenChannels": {
-            "enabled": false
+            "enabled": true,
+            "showMode": 0,
+            "hideUnreads": true,
+            "defaultAllowedUsersAndRolesDropdownState": true
         },
         "ShowHiddenThings": {
             "enabled": false
@@ -582,6 +609,18 @@
         },
         "SupportHelper": {
             "enabled": true
+        },
+        "FullUserInChatbox": {
+            "enabled": false
+        },
+        "IrcColors": {
+            "enabled": false
+        },
+        "BadgeAPI": {
+            "enabled": true
+        },
+        "HideMedia": {
+            "enabled": false
         }
     },
     "notifications": {
@@ -594,6 +633,6 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1734395322049
+        "settingsSyncVersion": 1739486392992
     }
 }
