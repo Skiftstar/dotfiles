@@ -4,7 +4,7 @@
     "useQuickCss": true,
     "themeLinks": [],
     "enabledThemes": [
-        "Anime.css"
+        "Dragon.css"
     ],
     "enableReactDevtools": false,
     "frameless": false,
@@ -633,6 +633,7 @@
         "authenticated": false,
         "url": "https://api.vencord.dev/",
         "settingsSync": false,
-        "settingsSyncVersion": 1739486392992
-    }
+        "settingsSyncVersion": 1740385723804
+    },
+    "eagerPatches": false
 }
