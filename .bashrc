@@ -138,3 +138,5 @@ export PATH=~/.npm-global/bin:$PATH
 
 # Shopify Hydrogen alias to local projects
 alias h2='$(npm prefix -s)/node_modules/.bin/shopify hydrogen'
+
+alias ba='cd ~/Documents/Github/Kaida'

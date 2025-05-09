@@ -1,7 +1,7 @@
 :set number
 :set mouse=a
 :set autoindent
-" :set shiftwidth=2
+:set shiftwidth=2
 :set smarttab
 :set tabstop=2
 :set softtabstop=2
@@ -18,7 +18,6 @@ Plug 'https://github.com/rafi/awesome-vim-colorschemes'
 Plug 'https://github.com/ryanoasis/vim-devicons'
 Plug 'https://github.com/preservim/tagbar'
 Plug 'https://github.com/nvim-lualine/lualine.nvim'
-Plug 'nvim-tree/nvim-web-devicons'
 Plug 'https://github.com/neoclide/coc.nvim'
 Plug 'https://github.com/herringtondarkholme/yats.vim'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
