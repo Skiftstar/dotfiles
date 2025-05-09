@@ -10,9 +10,6 @@
 !Pictures/Wallpapers
 !Pictures/Wallpapers/**
 
-!.setup
-!.setup/**
-
 !.config/waybar
 !.config/waybar/**
 
@@ -68,5 +65,5 @@
 !.vscode-oss/extensions/extensions.json
 !.vscode-oss/argv.json
 
-!.firefox-theming
-!.firefox-theming/**
+!.config/install-scripts
+!.config/install-scripts/**
