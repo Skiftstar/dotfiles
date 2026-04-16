@@ -21,7 +21,7 @@
   /*
     Theme Background
   */
-  --theme-background-image: url(https://images8.alphacoders.com/137/1371384.jpeg);
+  --theme-background-image: url(https://raw.githubusercontent.com/Skiftstar/dotfiles/refs/heads/main/Pictures/Wallpapers/dragon.jpeg);
   /*
     Main Theme Color
   */
@@ -205,5 +205,9 @@
 /* Region */
 
 .app-launcher-entrypoint {
+  display: none !important;
+}
+
+.content_d125d2 .container__13cf1:first-of-type {
   display: none !important;
 }
