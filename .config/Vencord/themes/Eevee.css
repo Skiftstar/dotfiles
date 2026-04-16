@@ -208,14 +208,6 @@
   display: none !important;
 }
 
-/* .content_d125d2 { */
-/*   display: none !important; */
-/* } */
-
-/* .headerContainer__095fe { */
-/*   display: none !important; */
-/* } */
-
-.content_d125d2 .container__13cf1:first-of-type {
+.content_d125d2 .membersGroup_c8ffbb.container__13cf1:first-of-type {
   display: none !important;
 }
